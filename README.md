@@ -23,7 +23,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Marchino5791/Frontend-Mentor-3-Column-Preview](https://github.com/Marchino5791/Frontend-Mentor-3-Column-Preview)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://marchino5791.github.io/Frontend-Mentor-3-Column-Preview/](https://marchino5791.github.io/Frontend-Mentor-3-Column-Preview/)
 
 ## My process
 
