@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+
+  --sedans: hsl(31, 77%, 52%);
+  --suvs: hsl(184, 100%, 22%);
+  --luxury: hsl(179, 100%, 13%);
+
+  --paragraphs: hsla(0, 0%, 100%, 0.75);
+  --layout_and_buttons: hsl(0, 0%, 95%);
+}
+
+html {
+  font-size: 93.75%;
+}
+
+body {
+  background-color: var(--layout_and_buttons);
+  color: var(--paragraphs);
+  box-sizing: border-box;
+  height: 99vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 56.7rem;
+  height: 30rem;
+  margin: auto;
+}
+
+
+.box {
+  width: calc(100/3);
+  height: auto;
+  padding: 2.5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+
+img {
+  /* margin-bottom: 1rem; */
+}
+
+h1 {
+  color: var(--layout_and_buttons);
+  text-transform: uppercase;
+  font-family: 'Big Shoulders Display', cursive;
+  margin: 1rem 0;
+  font-size: 2.5rem;
+}
+
+button {
+  width: 10rem;
+  height: 3rem;
+  text-align: center;
+  vertical-align: middle;
+  background-color: var(--layout_and_buttons);
+  border: none;
+  border-radius: 5rem;
+  font-family: 'Lexend Deca', sans-serif;
+  margin-top: 4rem;
+  border: 2px solid var(--layout_and_buttons);
+}
+
+.sedans{
+  background-color: var(--sedans);
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.btn-sedans {
+  color: var(--sedans);
+}
+
+.suvs {
+  background-color: var(--suvs);
+}
+
+.btn-suvs {
+  color: var(--suvs);
+}
+
+.luxury {
+  background-color: var(--luxury);
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+.btn-luxury {
+  color: var(--luxury);
+}
+
+.btn-sedans:hover, .btn-suvs:hover, .btn-luxury:hover {
+  background-color: Transparent;
+  color: var(--layout_and_buttons);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: black;
+  padding: 1rem 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+@media (max-width: 850px) {
+  body {
+    justify-content: flex-start;
+
+  }
+
+  main {
+    flex-direction: column;
+    width: 335px;
+    height: auto;
+    margin: 5rem auto;
+  }
+
+  .box {
+    padding: 3.5rem;
+  }
+
+  .sedans {
+    border-radius: 0.5rem 0.5rem 0 0;
+  }
+
+  .luxury {
+    border-radius: 0 0 0.5rem 0.5rem;
+  }
+}
