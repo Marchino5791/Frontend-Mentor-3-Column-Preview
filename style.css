@@ -40,7 +40,6 @@ main {
 
 
 .box {
-  width: calc(100/3);
   height: auto;
   padding: 2.5rem;
   flex-direction: column;
