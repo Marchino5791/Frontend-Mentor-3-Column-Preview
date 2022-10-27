@@ -123,12 +123,12 @@ p {
 @media (max-width: 850px) {
   body {
     justify-content: flex-start;
-
   }
 
   main {
     flex-direction: column;
-    width: 335px;
+    width: 80%;
+    max-width: 450px;
     height: auto;
     margin: 5rem auto;
   }
